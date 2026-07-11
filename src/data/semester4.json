@@ -1,0 +1,6 @@
+[
+  {"id":"java","subject":"Java Programming","description":"Java language, object-oriented programming and applications.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"computer-graphics","subject":"Computer Graphics & Multimedia","description":"Computer graphics, visual media and multimedia concepts.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"operating-system-linux","subject":"Operating System & Linux","description":"Operating system concepts and Linux fundamentals.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"software-engineering","subject":"Software Engineering Principles","description":"Requirements, testing and software project management.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]}
+]

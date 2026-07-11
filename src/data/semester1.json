@@ -1,0 +1,6 @@
+[
+  {"id":"mathematical-foundation","subject":"Mathematical Foundation","description":"Mathematical foundations for computer applications.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"},{"year":"2023","link":"https://drive.google.com/"},{"year":"2022","link":"https://drive.google.com/"},{"year":"2021","link":"https://drive.google.com/"},{"year":"2020","link":"https://drive.google.com/"}]},
+  {"id":"computer-fundamentals","subject":"Computer Fundamentals","description":"Introduction to computers, operating systems and digital basics.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"bcis","subject":"Business Communication & Information System","description":"Business communication and information system fundamentals.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"c-programming","subject":"C Programming","description":"Core C programming, problem solving and program design.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]}
+]

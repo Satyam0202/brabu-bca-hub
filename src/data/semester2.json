@@ -1,0 +1,6 @@
+[
+  {"id":"discrete-mathematics","subject":"Discrete Mathematics","description":"Logic, sets, relations, graphs and combinatorics.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"},{"year":"2023","link":"https://drive.google.com/"},{"year":"2022","link":"https://drive.google.com/"},{"year":"2021","link":"https://drive.google.com/"},{"year":"2020","link":"https://drive.google.com/"}]},
+  {"id":"computer-architecture","subject":"Computer Architecture","description":"Computer organization, processors, memory and I/O.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"data-structure-c","subject":"Data Structure using C","description":"Arrays, stacks, queues, linked lists, trees and sorting.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"},{"year":"2023","link":"https://drive.google.com/"}]},
+  {"id":"system-analysis-design","subject":"System Analysis and Design","description":"System development life cycle, analysis and design methods.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]}
+]

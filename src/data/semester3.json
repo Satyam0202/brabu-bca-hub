@@ -1,0 +1,6 @@
+[
+  {"id":"management-accounting","subject":"Fundamentals of Management & Business Accounting","description":"Management principles and business accounting fundamentals.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"dbms","subject":"Database Management System","description":"Relational databases, SQL concepts and database design.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"object-oriented-programming","subject":"Object Oriented Programming using C++","description":"Classes, inheritance and object-oriented application design with C++.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"numerical-methodology","subject":"Numerical Methodology","description":"Numerical methods and computational problem solving.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]}
+]

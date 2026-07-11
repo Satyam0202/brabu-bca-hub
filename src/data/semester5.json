@@ -1,0 +1,6 @@
+[
+  {"id":"rdbms","subject":"Relational Database Management System","description":"Relational database design and management.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"ai-python","subject":"Artificial Intelligence through Python Programming","description":"Artificial intelligence concepts using Python programming.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"web-tech","subject":"Web Technology","description":"HTML, CSS, JavaScript and web development basics.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]},
+  {"id":"network-security-law","subject":"Computer Network, Security and Cyber Law","description":"Networking, cyber security and cyber law concepts.","papers":[{"year":"2025","link":"https://drive.google.com/"},{"year":"2024","link":"https://drive.google.com/"}]}
+]
