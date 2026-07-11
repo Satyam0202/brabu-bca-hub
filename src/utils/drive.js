@@ -1,29 +1,25 @@
-// The public Google Drive folder containing all Semester 1, year-wise papers.
-// Keep its sharing setting as: "Anyone with the link" → "Viewer".
-export const semester1FolderId = "1Ty4tsSBbfRj2SGYVoxxl96F5-XTL73fI";
-export const semester1PreviewUrl = `https://drive.google.com/drive/folders/${semester1FolderId}`;
-export const semester1DownloadUrl = `https://drive.google.com/uc?export=download&id=${semester1FolderId}`;
+// Papers are stored in this project under public/papers, not on Google Drive.
+const paper = (name) => ({ name, path: `papers/${name}` });
 
 export const semester1Sessions = [
-  { id: "2019-22", label: "2019–22", folderId: "1OlHwN7MyirtQluwhnNdZuMzsRix8Vg04" },
-  { id: "2020-23", label: "2020–23", folderId: "18sb8zif_unNzjssdn5p67hXWOSxrG1_V" },
-  { id: "2021-24", label: "2021–24", folderId: "1Lhq-oWSDp9ED263ObCXzrUzendYJ7uQQ" },
-  { id: "2022-25", label: "2022–25", folderId: "1D1cFGiM1Afmefw5wBH9PqrbuIBppxquy" },
-  { id: "2023-26", label: "2023–26", folderId: "1AtP3lsRzwoVvPY7dKcHrxDRzGxdwatXT" },
-  { id: "2024-27", label: "2024–27", folderId: "1vpRWMvfXP05_dA5uD37wUQ-dS3MS1TRW" },
+  { id: "2019-22", label: "2019–22", files: [paper("1st/2019-22/Business Communication & Information System.pdf"), paper("1st/2019-22/C Programming.pdf"), paper("1st/2019-22/Computer Fundamentals.pdf"), paper("1st/2019-22/Mathematical_Foundation_without_last_page.pdf.pdf"), paper("1st/2019-22/Mathematics.pdf")] },
+  { id: "2020-23", label: "2020–23", files: [paper("1st/2020-23/Business Communication & Information Systems.pdf"), paper("1st/2020-23/C Programmings.pdf"), paper("1st/2020-23/Computer Fundamental.pdf"), paper("1st/2020-23/Mathematical Foundations.pdf")] },
+  { id: "2021-24", label: "2021–24", files: [paper("1st/2021-24/Business Communication & Information Systems.pdf"), paper("1st/2021-24/C Programmings.pdf"), paper("1st/2021-24/Computer Fundamental.pdf"), paper("1st/2021-24/Mathematical Foundation (1).pdf"), paper("1st/2021-24/Mathematics.docx")] },
+  { id: "2022-25", label: "2022–25", files: [paper("1st/2022-25/Business Communication & Information Systems.pdf"), paper("1st/2022-25/C Programmings.pdf"), paper("1st/2022-25/Computer Fundamental.pdf"), paper("1st/2022-25/Mathematical Foundation (1).pdf"), paper("1st/2022-25/Mathematical Foundation.pdf"), paper("1st/2022-25/Mathematics.pdf")] },
+  { id: "2023-24", label: "2023–24", files: [paper("1st/2023-24/Business Communication & Information Systems.pdf"), paper("1st/2023-24/C Programmings.pdf"), paper("1st/2023-24/Computer Fundamental.pdf"), paper("1st/2023-24/Mathematical Foundation (1).pdf"), paper("1st/2023-24/Mathematics.pdf")] },
+  { id: "2024-27", label: "2024–27", files: [paper("1st/2024-27/Business Communication & Information Systems.pdf"), paper("1st/2024-27/C Programmings.pdf"), paper("1st/2024-27/Computer Fundamental.pdf"), paper("1st/2024-27/Mathematics.pdf")] },
 ];
 
 export const semester2Sessions = [
-  { id: "2019-22", label: "2019–22", folderId: "11cxeGMvjTH5GPr4w51CjiHK7TOLcOcNb" },
-  { id: "2020-23", label: "2020–23", folderId: "1wMGbvBsmdyFM-0WleBzOZ--mHTaGxx1y" },
-  { id: "2021-24", label: "2021–24", folderId: "1DKnZFxmszRRzmP29BdBAecKNToVmmIL2" },
-  { id: "2022-25", label: "2022–25", folderId: "1h4K2NEX0n_QUt4rpHLzL4NelTyMIv1UU" },
-  { id: "2023-26", label: "2023–26", folderId: "1QvRR1lnM8o9SPaArD-wQ3SvhojhB44Uy" },
-  { id: "2024-27", label: "2024–27", folderId: "15mH3FXrD8GpPQJB21o4GfGijF1XKKbGK" },
+  { id: "2019-22", label: "2019–22", files: [paper("2nd/2019-22/Computer Architectures.pdf"), paper("2nd/2019-22/Data Structure throughh C.pdf"), paper("2nd/2019-22/Mathematics.pdf"), paper("2nd/2019-22/System Analysis and Designs.pdf")] },
+  { id: "2020-23", label: "2020–23", files: [paper("2nd/2020-23/Computer Architecturee.pdf"), paper("2nd/2020-23/Data Structure throughh C.pdf"), paper("2nd/2020-23/Discrete Mathematics.pdf"), paper("2nd/2020-23/System Analysis and Designs.pdf")] },
+  { id: "2021-24", label: "2021–24", files: [paper("2nd/2021-24/Computer Architecture.pdf"), paper("2nd/2021-24/Data Structure through C.pdf"), paper("2nd/2021-24/Discrete Mathematics.pdf"), paper("2nd/2021-24/System Analysis and Design.pdf")] },
+  { id: "2022-25", label: "2022–25", files: [paper("2nd/2022-25/Computer Architecture.pdf"), paper("2nd/2022-25/Data Structure through C.pdf"), paper("2nd/2022-25/Discrete Mathematics.pdf"), paper("2nd/2022-25/System Analysis and Design.pdf")] },
+  { id: "2023-26", label: "2023–26", files: [paper("2nd/2023-26/Computer Architecture.pdf"), paper("2nd/2023-26/Data Structure through C.pdf"), paper("2nd/2023-26/Discrete Mathematics.pdf"), paper("2nd/2023-26/System Analysis and Design.pdf")] },
+  { id: "2024-27", label: "2024–27", files: [paper("2nd/2024-27/Computer Architecture.pdf"), paper("2nd/2024-27/Data Structure through C.pdf"), paper("2nd/2024-27/Discrete Mathematics.pdf"), paper("2nd/2024-27/System Analysis and Design.pdf")] },
 ];
 
 export const semesterSessions = { 1: semester1Sessions, 2: semester2Sessions };
 export const getSemesterSessions = (semester) => semesterSessions[Number(semester)] ?? [];
 export const getSemesterSession = (semester, id) => getSemesterSessions(semester).find((session) => session.id === id);
-export const getEmbeddedFolderUrl = (folderId) => `https://drive.google.com/embeddedfolderview?id=${folderId}#list`;
-export const getFolderDownloadUrl = (folderId) => `https://drive.google.com/uc?export=download&id=${folderId}`;
+export const getLocalPaperUrl = (path) => `${import.meta.env.BASE_URL}papers/${path.replace(/^papers\//, "")}`;
